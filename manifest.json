@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "TurboTube",
+  "short_name": "TurboTube",
+  "description": "TurboTube",
+  "version": "0.1",
+  "author": "author",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "turbotube"
+  },
+  "permissions": ["https://*.youtube.com/*", "activeTab", "tabs"],
+  "icons": {
+    "16": "turboicon.png",
+    "48": "turboicon.png",
+    "128": "turboicon.png"
+  }
+}
